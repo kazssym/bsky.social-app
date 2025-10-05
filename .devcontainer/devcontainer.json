@@ -1,3 +1,8 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/java:17"
+    "image": "mcr.microsoft.com/devcontainers/java:17",
+    "features": {
+        "ghcr.io/devcontainers-extra/features/typescript:2": {},
+        "ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
+    },
+    "remoteUser": "root"
 }
