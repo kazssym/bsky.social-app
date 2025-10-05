@@ -1,9 +1,11 @@
 {
     "image": "mcr.microsoft.com/devcontainers/java:17",
     "features": {
-        "ghcr.io/devcontainers-extra/features/typescript:2": {},
-        "ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
+        "ghcr.io/devcontainers-extra/features/typescript:2": {}
     },
     "remoteUser": "root",
-    "onCreateCommand": "yarn install"
+    "onCreateCommand": {
+        "apt": "sudo apt-get update -y && sudo apt-get install -y android-sdk",
+        "yarn": "yarn install"
+    }
 }
