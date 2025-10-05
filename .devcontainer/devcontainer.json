@@ -5,7 +5,7 @@
     },
     "remoteUser": "root",
     "onCreateCommand": {
-        "apt": "sudo apt-get update -y && sudo apt-get install -y android-sdk",
+        "apt": "sudo apt-get update -y && sudo apt-get install -y android-sdk && apt-get autoclean -y",
         "yarn": "yarn install"
     }
 }
