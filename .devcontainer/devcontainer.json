@@ -1,6 +1,8 @@
 {
     "image": "mcr.microsoft.com/devcontainers/typescript-node",
-    "features": {},
+    "features": {
+        "ghcr.io/devcontainers-extra/features/typescript:2": {}
+     },
     "remoteUser": "root",
     "onCreateCommand": {
         "apt": "sudo apt-get update -qy && sudo apt-get install -qy android-sdk && apt-get autoclean -qy",
