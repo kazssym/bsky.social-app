@@ -1,9 +1,10 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "features": {},
     "remoteUser": "root",
     "onCreateCommand": {
-        "apt": "sudo apt-get update -qy && sudo apt-get install -qy android-sdk && apt-get autoclean -qy",
         "yarn": "yarn install --non-interactive"
     }
 }
