@@ -4,7 +4,5 @@
     },
     "features": {},
     "remoteUser": "root",
-    "onCreateCommand": {
-        "yarn": "yarn install --non-interactive"
-    }
+    "onCreateCommand": "yarn install --non-interactive && cp google-services.json.example google-services.json"
 }
