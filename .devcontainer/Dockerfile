@@ -7,8 +7,8 @@ RUN \
     apt-get install -qy \
         openjdk-21-jdk-headless \
         google-android-cmdline-tools-9.0-installer \
-        google-android-platform-35-installer \
-        google-android-ndk-r27c-installer \
+        google-android-platform-33-installer \
+        google-android-ndk-r25c-installer \
         && \
     apt-get clean -qy
 ENV ANDROID_HOME=/usr/lib/android-sdk
