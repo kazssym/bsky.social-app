@@ -1,3 +1,4 @@
+# OpenJDK 17 is not available in trixie
 FROM mcr.microsoft.com/devcontainers/typescript-node:22-bookworm
 COPY debconf.config.dat /root/debconf.config.dat
 RUN \
