@@ -5,7 +5,7 @@ RUN \
     sed -i~ -e 's/ main *$/ main contrib non-free non-free-firmware/' /etc/apt/sources.list.d/debian.sources && \
     apt-get update -qy && \
     apt-get install -qy \
-        openjdk-21-jdk-headless \
+        openjdk-17-jdk-headless \
         google-android-cmdline-tools-9.0-installer \
         google-android-platform-33-installer \
         google-android-ndk-r25c-installer \
