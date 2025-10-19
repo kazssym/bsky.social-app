@@ -10,6 +10,7 @@ RUN \
         google-android-cmdline-tools-9.0-installer \
         google-android-platform-33-installer \
         google-android-ndk-r25c-installer \
+        google-android-emulator-installer \
         && \
     apt-get clean -qy
 ENV ANDROID_HOME=/usr/lib/android-sdk
