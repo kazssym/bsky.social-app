@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/typescript-node:22-trixie
+FROM mcr.microsoft.com/devcontainers/typescript-node:22-bookworm
 COPY debconf.config.dat /root/debconf.config.dat
 RUN \
     export DEBIAN_FRONTEND=noninteractive DEBCONF_DB_FALLBACK='File{/root/debconf.config.dat}'; \
