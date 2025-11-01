@@ -3,6 +3,9 @@
         "dockerfile": "Dockerfile"
     },
     "features": {},
+    "forwardPorts": [
+        6000
+    ],
     "remoteUser": "root",
     "onCreateCommand": "yarn install --non-interactive && cp -n google-services.json.example google-services.json"
 }
