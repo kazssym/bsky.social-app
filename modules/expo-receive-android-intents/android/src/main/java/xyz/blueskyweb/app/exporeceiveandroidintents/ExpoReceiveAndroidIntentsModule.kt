@@ -31,7 +31,7 @@ class ExpoReceiveAndroidIntentsModule : Module() {
 
       OnNewIntent {
         appContext.currentActivity?.run {
-          intent = it;
+          intent = it
         }
       }
     }
